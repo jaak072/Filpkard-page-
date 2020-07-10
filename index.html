@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Filpkard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <!-- Navigation -->
+        <nav style="background-color: blue; overflow: hidden; ">
+            <div style="padding: 20px; text-indent: 10px;">
+                <p style="color: #FDF4F4; float: left; font-size: 27px; margin: 10px; margin-left: 320px;"><b>Filpkard</b></p>
+                <input type="text" value="Search for product,brands and more...." style="padding: 15px; width: 370px; font-size: 17px; display: block; border: none;">
+            </div>
+        </nav>
+        
+        <!-- End navigation -->
+        
+        <!-- Filter -->
+        <div style="width: 250px;height: 1000px;overflow-y: scroll;float: left; font-family: cursive;">
+		<p style="margin-left: 7px; font-size: 19px; "><b>Filters</b></p><hr>
+		<form>
+				<h5>CATEGOTIES:</h5>
+				<select style="width: 90%; font-size: 17px; padding: 6px;">
+					<option>Smart Phone</option>
+					<option>Tablets</option>
+					<option>Laptops</option>
+					<option>Head Phones</option>
+				</select><hr>
+
+			
+
+                                <h5>PRICE RANGE(0 to 1L)</h5>
+                                <input type="range" name="points" min="0" max="100000" style="width: 93%;">
+			        <hr>
+
+                                <b>RAM:</b><br>
+                                <div class="input1" style="margin-left: 10px;  font-size: 14px;">
+				  <input type="checkbox" name="gb"> 6 GB & Above<br>
+				  <input type="checkbox" name="GB"> 4 GB<br>
+				  <input type="checkbox" name="GB"> 3 GB<br>
+				  <input type="checkbox" name="GB"> 2 GB<br>
+				  <input type="checkbox" name="GB"> 1 GB<br>
+                                  <input type="checkbox" name="GB"> 1 GB<br>
+				  <input type="checkbox" name="GB"> 512 MB - 1GB<br>
+				  <input type="checkbox" name="GB"> Less than 512 MB<br>
+                                </div>
+			
+			<hr>
+
+                               <h5>SELECT BRAND</h5>
+			       <select style="width: 85%; font-size: 18px; margin-left: 10px;">
+				         <option>ALL</option>
+				         <option>Xiaomi</option>
+				         <option>OPPO</option>
+				         <option>Vivo</option>
+			         	 <option>Realme</option>
+				         <option>Moto</option>
+				         <option>Micromax</option>
+				         <option>Lenovo</option>
+				         <option>Karbonn</option>
+				         <option>Apple</option>
+				         <option>Black Shark</option>
+				         <option>Red Magic</option>
+				         <option>IQoo</option>
+				         <option>Nubia</option>
+				
+                               </select><hr>
+
+			       <h5>CUSTOMER RATINGS:</h5>
+                                    <div style="margin-left: 10px; font-size: 14px;">
+					<input type="checkbox" name="Rate">4* & ABOVE<br>
+                                        <input type="checkbox" name="Rate">3* & ABOVE<br>
+					<input type="checkbox" name="Rate">2* & ABOVE<br>
+					<input type="checkbox" name="Rate">1* & ABOVE<br>
+                                    </div>
+			<hr>
+
+                                <h5>INTERNAL STORAGE</h5>
+                                <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				        <option>256 GB & Above</option>
+				        <option>128 - 255.9 GB</option>
+				        <option>64 - 127.9 GB</option>
+				        <option>32 - 63.9 GB</option>
+				        <option>16 - 31.9 GB</option>
+			        	<option>8 - 15.9 GB</option>
+				        <option>4 - 7.9 GB</option>
+				        <option>2 - 3.9 GB</option>
+				        <option>1 - 1.9 GB</option>
+				        <option>Less than 1 GB</option>
+			        </select>
+                        <hr>
+
+			        <h5>BATTERY CAPACITY</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				       <option>5000 mAh & Above</option>
+				       <option>4000 - 4999 mAh</option>
+				       <option>3000 - 3999 mAh</option>
+				       <option>2000 - 2999 mAh</option>
+				       <option>1000 - 1999 mAh</option>
+				       <option>Less than 1000 mAh</option>
+			        </select>
+                        <hr>
+
+			        <h5>OPERATING SYSTEM</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				       <option>Android</option>
+				       <option>Blackberry</option>
+				       <option>Brew</option>
+				       <option>iOS</option>
+				       <option>Linux</option>
+				       <option>Sailfish</option>
+				       <option>Symbian</option>
+				       <option>KaiOS</option>
+				       <option>Windows</option>
+			        </select>
+                        <hr>
+
+			        <h5>NETWORK TYPE</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				        <option>2G</option>
+				        <option>3G</option>
+				        <option>4G</option>
+				        <option>4G VOLTE</option>
+				        <option>5G</option>
+			        </select>
+                        <hr>
+
+			        <h5>SCREEN SIZE</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				        <option>6 inch & above</option>
+				        <option>5.7 - 5.9 inch</option>
+				        <option>5.5 - 5.6 inch</option>
+				        <option>5.2 - 5.4 inch</option>
+				        <option>5 - 5.1 inch</option>
+				        <option>4.5 - 4.9</option>
+				        <option>4 - 4.4</option>
+				        <option>3.5 - 3.9</option>
+				        <option>3 -3.4</option>
+				        <option>Less than 3 inch</option>
+			        </select>
+                        <hr>
+				<h5>SIM TYPE</h5> 
+				         <input type="radio" name="ST"> Dual SIM<br>
+				         <input type="radio" name="ST"> Single SIM<br>
+	                <hr>
+                                <h5>CAMERA</h5> 
+				         <input type="radio" name="CM">Primary Camera<br>
+				         <input type="radio" name="CM">Secondary Camera<br>
+			<hr>
+
+                                <h5>OFFERS</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				        <option>Bank Offer</option>
+				        <option>Buy More, Save More</option>
+				        <option>Exchange Offer</option>
+				        <option>No Cost EMI</option>
+				        <option>Special Price</option>
+			        </select><br>
+                        <hr>
+
+			        <h5>PROCESSOR BRAND</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				       <option>AMD</option>
+				       <option>Apple</option>
+				       <option>ARM</option>
+				       <option>Exynos</option>
+				       <option>HiSilicon</option>
+				       <option>Intel</option>
+				       <option>Mediatek</option>
+				       <option>Snapdragon</option>
+			        </select>
+                        <hr>
+                                <h5>SPECIALITY</h5>
+				       <input type="checkbox" name="Sp">Big Storage<br>
+				       <input type="checkbox" name="Sp">Higher Performance<br>
+				       <input type="checkbox" name="Sp">Long-Lasting Battery<br>
+				       <input type="checkbox" name="Sp">Selfie Camera<br>
+			<hr>
+			
+			        <h5>RESOLUTION TYPE</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				       <option>Full HD</option>
+				       <option>Full HD+</option>
+				       <option>FWVGA</option>
+				       <option>FWVGA+</option>
+				       <option>HD</option>
+				       <option>HD+</option>
+				       <option>UHD 4K</option>
+				       <option>VGA</option>
+				       <option>WVGA</option>
+			        </select>
+                        <hr>
+
+                                <h5>TYPE</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				       <option>Feature Phone</option>
+				       <option>Smartphones</option>
+			        </select>
+                        <hr>
+
+			        <h5>CLOCK SPEED</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				        <option>1 - 1.5 GHz</option>
+				        <option>1.5 - 1.9 GHz</option>
+				        <option>2 - 2.5 GHz</option>
+				        <option>2.5 GHz & Above</option>
+				        <option>Less than 900 MHz</option>
+                                </select>
+                        <hr>
+			        <h5>FEATURES</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				        <option>FM Player</option>
+				        <option>WiFi</option>
+				        <option>HD Recording</option>
+				        <option>4K Recording</option>
+				        <option>Music Player</option>
+				        <option>NFC</option>
+				        <option>Bluetooth</option>
+				        <option>USB</option>
+				        <option>GPRS</option>
+				        <option>GPS</option>
+			        </select>
+                        <hr>
+
+			        <h5>NUMBER OF CORES</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				        <option>Dual Core</option>
+				        <option>Hexa Core</option>
+				        <option>Octa Core</option>
+				        <option>Quad Core</option>
+				        <option>Single Core</option>
+				
+			        </select>
+                        <hr>
+			        <h5>BUDGET</h5>
+			        <select style="width: 92%; font-size: 18px; margin-left: 10px;">
+				        <option>Rs 5000 and below</option>
+				        <option>Rs 5000 to Rs 9999</option>
+				        <option>Rs 10000 to Rs 14999</option>
+				        <option>Rs 15000 to Rs 29999</option>
+				        <option>Rs 30000 and above</option>
+				
+			        </select>
+                        <hr>
+		</form>
+	</div>
+        <!-- End Filter -->
+
+        <!--Product Description-->
+        
+	<div style="overflow-y: scroll; height: 1000px; width: 900px; float: left;">
+            <div>
+                <div style="padding: 20px;">
+                   <img src="img2/redmi-k20.jpeg" alt="redmik20" class="thumbnail" style="margin-left: 70px; margin-top: 20px;">
+                   <h2>Redmi K20 (Carbon Black, 64 GB)  (6 GB RAM)</h2>
+                   <input type="submit" value="4.5*" style="background-color: #147C17; color: white;"> 929 Ratings & 97 Review<br>
+                   <h2><span>&#8377;</span> 21,999 /- <del style="color: #B6C6B6; font-size: 17px;"><span>&#8377;</span>  22,999/-</del></h2>
+
+                   <p>
+                      <b>Available offers</b>
+                        <ul>
+              	            <li><b>Bank Offer</b> Flat ₹30 discount on first prepaid transaction using RuPay debit card, minimum order value ₹750/<a href="#" style="text-decoration: none;"> T&C</a></li>
+                            <li><b>Bank Offer</b> ₹30 Off on first prepaid transaction using UPI. Minimum order value ₹750/-<a href="#" style="text-decoration: none;">T&C</a> </li>
+                            <li><b>Bank Offer</b> Flat ₹75/- off on RuPay debit card purchase above ₹7,500/- <a href="#" style="text-decoration: none">T&C</a></li>
+                            <li><b>Bank Offer</b> Flat ₹75 discount on UPI transaction above ₹10,000/-<a href="#" style="text-decoration: none;">T&C</a></li>
+                        </ul>
+                        <a href="re.html" style="text-decoration: none;">  View 7 more offers</a><br><br><br>
+
+                       <b>Delivery : </b>          
+			    <input class="form-control my-0 py-1" type="text" placeholder="Enter Delivery Pincode" aria-label="Search">
+			    <input type="submit" name="j" value="Check"><p style="margin-left: 70px;">Usually delivered in3-4 days</p>
+                            <br>
+                
+                       <b>Highlights</b>
+                        <ul>
+                            <li>6 GB RAM | 64 GB ROM</li>
+                            <li>16.23 cm (6.39 inch) Full HD+ Display</li>
+                            <li>48MP + 13MP + 8MP | 20MP Front Camera</li>
+                            <li>4000 mAh Li-polymer Battery</li>
+                            <li>Qualcomm Snapdragon 730 Processor</li>
+                        </ul>
+            
+                       <b>Easy Payment Options</b>
+                        <ul>
+                            <li>No cost EMI starting from ₹1,834/month</li>
+                            <li>Cash on Delivery </li>
+                            <li>Net banking & Credit/ Debit/ ATM card</li>
+                        </ul>
+                            <p><a href="#" style="text-decoration: none;">View details</a></p>
+                
+                            <br>
+                            <br>
+                       <b>Seller</b>
+                            <b style="color: #375AD0; margin-left: 40px;"> SuperComNet <a style="border-radius: 5px;background: #375AD0; width: 50px; color: white;"> 4.6*</a></b><br>
+                            <ul>
+                                <li style="margin-left: 40px;">Days replacement policy
+                                    <br>View <a href="#" style="text-decoration: none;">more sellers</a> starting from ₹21,999
+                                </li>
+                            </ul>
+                            <br>
+
+                            <h3><b>Product Description</b></h3>
+                            <dl>
+                                <dt><b>Blazing-fast Processor</b></dt>
+                                <dd><br>Powered by the Qualcomm 730 processor, Adreno 618 GPU, and 6 GB of RAM, the Redmi K20 offers incredible power and efficiency in all your daily tasks. It also comes with 64 GB of ROM to store all your pictures, videos, and other files.</dd>
+                 
+                                <dt><br><b>Game Turbo 2.0</b></dt>
+                                <dd><br>With reduced network delay and optimised touch latency, this feature provides you with a fluid and seamless mobile gaming experience.</dd>
+
+                            </dl><p><a href="re.html" style="text-decoration: none;">View all features</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- End product description -->
+        
+        
+        <!--Tweets from Twitter Handle-->
+        
+	<div style="width: 350px; height: 1000px;overflow-y: scroll;float: left; background-color: #F7A200">
+		<a class="twitter-timeline" href="https://twitter.com/Flipkart?ref_src=twsrc55Etfw"> tweets by Flipkart</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+        
+        <!-- End tweets from twitter handle -->
+
+    </body>
+</html>
